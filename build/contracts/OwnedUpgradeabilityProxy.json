@@ -138,14 +138,14 @@
       "type": "function"
     }
   ],
-  "bytecode": "0x608060405234801561001057600080fd5b5061045c806100206000396000f3006080604052600436106100825763ffffffff7c0100000000000000000000000000000000000000000000000000000000600035041663025313a281146100c85780633659cfe6146100f95780634555d5c91461011c5780634f1ef286146101435780635c60da1b1461019d5780636fde8202146101b2578063f1739cae146101c7575b600061008c6101e8565b9050600160a060020a03811615156100a357600080fd5b60405136600082376000803683855af43d806000843e8180156100c4578184f35b8184fd5b3480156100d457600080fd5b506100dd6101f7565b60408051600160a060020a039092168252519081900360200190f35b34801561010557600080fd5b5061011a600160a060020a0360043516610206565b005b34801561012857600080fd5b50610131610239565b60408051918252519081900360200190f35b60408051602060046024803582810135601f810185900485028601850190965285855261011a958335600160a060020a031695369560449491939091019190819084018382808284375094975061023e9650505050505050565b3480156101a957600080fd5b506100dd6101e8565b3480156101be57600080fd5b506100dd6102f2565b3480156101d357600080fd5b5061011a600160a060020a0360043516610301565b600054600160a060020a031690565b60006102016102f2565b905090565b61020e6101f7565b600160a060020a031633600160a060020a031614151561022d57600080fd5b61023681610391565b50565b600290565b6102466101f7565b600160a060020a031633600160a060020a031614151561026557600080fd5b61026e82610206565b30600160a060020a03168160405180828051906020019080838360005b838110156102a357818101518382015260200161028b565b50505050905090810190601f1680156102d05780820380516001836020036101000a031916815260200191505b50915050600060405180830381855af491505015156102ee57600080fd5b5050565b600154600160a060020a031690565b6103096101f7565b600160a060020a031633600160a060020a031614151561032857600080fd5b600160a060020a038116151561033d57600080fd5b7f5a3e66efaa1e445ebd894728a69d6959842ea1e97bd79b892797106e270efcd96103666101f7565b60408051600160a060020a03928316815291841660208301528051918290030190a161023681610401565b600054600160a060020a03828116911614156103ac57600080fd5b6000805473ffffffffffffffffffffffffffffffffffffffff1916600160a060020a038316908117825560405190917fbc7cd75a20ee27fd9adebab32041f755214dbc6bffa90cc0225b39da2e5c2d3b91a250565b6001805473ffffffffffffffffffffffffffffffffffffffff1916600160a060020a03929092169190911790555600a165627a7a72305820cec63c4756276a8ce9e3ef85a18309117a4fa50d02afdd6037db06f33ae6c8a20029",
-  "deployedBytecode": "0x6080604052600436106100825763ffffffff7c0100000000000000000000000000000000000000000000000000000000600035041663025313a281146100c85780633659cfe6146100f95780634555d5c91461011c5780634f1ef286146101435780635c60da1b1461019d5780636fde8202146101b2578063f1739cae146101c7575b600061008c6101e8565b9050600160a060020a03811615156100a357600080fd5b60405136600082376000803683855af43d806000843e8180156100c4578184f35b8184fd5b3480156100d457600080fd5b506100dd6101f7565b60408051600160a060020a039092168252519081900360200190f35b34801561010557600080fd5b5061011a600160a060020a0360043516610206565b005b34801561012857600080fd5b50610131610239565b60408051918252519081900360200190f35b60408051602060046024803582810135601f810185900485028601850190965285855261011a958335600160a060020a031695369560449491939091019190819084018382808284375094975061023e9650505050505050565b3480156101a957600080fd5b506100dd6101e8565b3480156101be57600080fd5b506100dd6102f2565b3480156101d357600080fd5b5061011a600160a060020a0360043516610301565b600054600160a060020a031690565b60006102016102f2565b905090565b61020e6101f7565b600160a060020a031633600160a060020a031614151561022d57600080fd5b61023681610391565b50565b600290565b6102466101f7565b600160a060020a031633600160a060020a031614151561026557600080fd5b61026e82610206565b30600160a060020a03168160405180828051906020019080838360005b838110156102a357818101518382015260200161028b565b50505050905090810190601f1680156102d05780820380516001836020036101000a031916815260200191505b50915050600060405180830381855af491505015156102ee57600080fd5b5050565b600154600160a060020a031690565b6103096101f7565b600160a060020a031633600160a060020a031614151561032857600080fd5b600160a060020a038116151561033d57600080fd5b7f5a3e66efaa1e445ebd894728a69d6959842ea1e97bd79b892797106e270efcd96103666101f7565b60408051600160a060020a03928316815291841660208301528051918290030190a161023681610401565b600054600160a060020a03828116911614156103ac57600080fd5b6000805473ffffffffffffffffffffffffffffffffffffffff1916600160a060020a038316908117825560405190917fbc7cd75a20ee27fd9adebab32041f755214dbc6bffa90cc0225b39da2e5c2d3b91a250565b6001805473ffffffffffffffffffffffffffffffffffffffff1916600160a060020a03929092169190911790555600a165627a7a72305820cec63c4756276a8ce9e3ef85a18309117a4fa50d02afdd6037db06f33ae6c8a20029",
+  "bytecode": "0x608060405234801561001057600080fd5b5061045c806100206000396000f3006080604052600436106100825763ffffffff7c0100000000000000000000000000000000000000000000000000000000600035041663025313a281146100c85780633659cfe6146100f95780634555d5c91461011c5780634f1ef286146101435780635c60da1b1461019d5780636fde8202146101b2578063f1739cae146101c7575b600061008c6101e8565b9050600160a060020a03811615156100a357600080fd5b60405136600082376000803683855af43d806000843e8180156100c4578184f35b8184fd5b3480156100d457600080fd5b506100dd6101f7565b60408051600160a060020a039092168252519081900360200190f35b34801561010557600080fd5b5061011a600160a060020a0360043516610206565b005b34801561012857600080fd5b50610131610239565b60408051918252519081900360200190f35b60408051602060046024803582810135601f810185900485028601850190965285855261011a958335600160a060020a031695369560449491939091019190819084018382808284375094975061023e9650505050505050565b3480156101a957600080fd5b506100dd6101e8565b3480156101be57600080fd5b506100dd6102f2565b3480156101d357600080fd5b5061011a600160a060020a0360043516610301565b600054600160a060020a031690565b60006102016102f2565b905090565b61020e6101f7565b600160a060020a031633600160a060020a031614151561022d57600080fd5b61023681610391565b50565b600290565b6102466101f7565b600160a060020a031633600160a060020a031614151561026557600080fd5b61026e82610206565b30600160a060020a03168160405180828051906020019080838360005b838110156102a357818101518382015260200161028b565b50505050905090810190601f1680156102d05780820380516001836020036101000a031916815260200191505b50915050600060405180830381855af491505015156102ee57600080fd5b5050565b600154600160a060020a031690565b6103096101f7565b600160a060020a031633600160a060020a031614151561032857600080fd5b600160a060020a038116151561033d57600080fd5b7f5a3e66efaa1e445ebd894728a69d6959842ea1e97bd79b892797106e270efcd96103666101f7565b60408051600160a060020a03928316815291841660208301528051918290030190a161023681610401565b600054600160a060020a03828116911614156103ac57600080fd5b6000805473ffffffffffffffffffffffffffffffffffffffff1916600160a060020a038316908117825560405190917fbc7cd75a20ee27fd9adebab32041f755214dbc6bffa90cc0225b39da2e5c2d3b91a250565b6001805473ffffffffffffffffffffffffffffffffffffffff1916600160a060020a03929092169190911790555600a165627a7a72305820812a8e9b8e1a8124299fa7dfbdb1a25a18ff6054f399e7a3957d43c96c8fb1670029",
+  "deployedBytecode": "0x6080604052600436106100825763ffffffff7c0100000000000000000000000000000000000000000000000000000000600035041663025313a281146100c85780633659cfe6146100f95780634555d5c91461011c5780634f1ef286146101435780635c60da1b1461019d5780636fde8202146101b2578063f1739cae146101c7575b600061008c6101e8565b9050600160a060020a03811615156100a357600080fd5b60405136600082376000803683855af43d806000843e8180156100c4578184f35b8184fd5b3480156100d457600080fd5b506100dd6101f7565b60408051600160a060020a039092168252519081900360200190f35b34801561010557600080fd5b5061011a600160a060020a0360043516610206565b005b34801561012857600080fd5b50610131610239565b60408051918252519081900360200190f35b60408051602060046024803582810135601f810185900485028601850190965285855261011a958335600160a060020a031695369560449491939091019190819084018382808284375094975061023e9650505050505050565b3480156101a957600080fd5b506100dd6101e8565b3480156101be57600080fd5b506100dd6102f2565b3480156101d357600080fd5b5061011a600160a060020a0360043516610301565b600054600160a060020a031690565b60006102016102f2565b905090565b61020e6101f7565b600160a060020a031633600160a060020a031614151561022d57600080fd5b61023681610391565b50565b600290565b6102466101f7565b600160a060020a031633600160a060020a031614151561026557600080fd5b61026e82610206565b30600160a060020a03168160405180828051906020019080838360005b838110156102a357818101518382015260200161028b565b50505050905090810190601f1680156102d05780820380516001836020036101000a031916815260200191505b50915050600060405180830381855af491505015156102ee57600080fd5b5050565b600154600160a060020a031690565b6103096101f7565b600160a060020a031633600160a060020a031614151561032857600080fd5b600160a060020a038116151561033d57600080fd5b7f5a3e66efaa1e445ebd894728a69d6959842ea1e97bd79b892797106e270efcd96103666101f7565b60408051600160a060020a03928316815291841660208301528051918290030190a161023681610401565b600054600160a060020a03828116911614156103ac57600080fd5b6000805473ffffffffffffffffffffffffffffffffffffffff1916600160a060020a038316908117825560405190917fbc7cd75a20ee27fd9adebab32041f755214dbc6bffa90cc0225b39da2e5c2d3b91a250565b6001805473ffffffffffffffffffffffffffffffffffffffff1916600160a060020a03929092169190911790555600a165627a7a72305820812a8e9b8e1a8124299fa7dfbdb1a25a18ff6054f399e7a3957d43c96c8fb1670029",
   "sourceMap": "238:2556:24:-;;;;8:9:-1;5:2;;;30:1;27;20:12;5:2;238:2556:24;;;;;;;",
   "deployedSourceMap": "238:2556:24:-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;755:13:26;771:16;:14;:16::i;:::-;755:32;-1:-1:-1;;;;;;801:19:26;;;;793:28;;;;;;862:4;856:11;895:12;892:1;887:3;874:34;976:1;973;959:12;954:3;947:5;942:3;929:49;997:14;1041:4;1038:1;1033:3;1018:28;1061:6;1074:28;;;;1131:4;1126:3;1119:17;1074:28;1095:4;1090:3;1083:17;1399:91:24;;8:9:-1;5:2;;;30:1;27;20:12;5:2;1399:91:24;;;;;;;;-1:-1:-1;;;;;1399:91:24;;;;;;;;;;;;;;2062:102;;8:9:-1;5:2;;;30:1;27;20:12;5:2;-1:-1;2062:102:24;-1:-1:-1;;;;;2062:102:24;;;;;;;994:82:25;;8:9:-1;5:2;;;30:1;27;20:12;5:2;994:82:25;;;;;;;;;;;;;;;;;;;;2617:175:24;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;-1:-1:-1;;;;;2617:175:24;;;;;;;;;;;;;;;;;;;;;;;-1:-1:-1;2617:175:24;;-1:-1:-1;2617:175:24;;-1:-1:-1;;;;;;;2617:175:24;803:89:25;;8:9:-1;5:2;;;30:1;27;20:12;5:2;803:89:25;;;;397:99;;8:9:-1;5:2;;;30:1;27;20:12;5:2;397:99:25;;;;1651:212:24;;8:9:-1;5:2;;;30:1;27;20:12;5:2;-1:-1;1651:212:24;-1:-1:-1;;;;;1651:212:24;;;;;803:89:25;850:7;872:15;-1:-1:-1;;;;;872:15:25;803:89;:::o;1399:91:24:-;1442:7;1464:21;:19;:21::i;:::-;1457:28;;1399:91;:::o;2062:102::-;1267:12;:10;:12::i;:::-;-1:-1:-1;;;;;1253:26:24;:10;-1:-1:-1;;;;;1253:26:24;;1245:35;;;;;;;;2133:26;2144:14;2133:10;:26::i;:::-;2062:102;:::o;994:82:25:-;1070:1;994:82;:::o;2617:175:24:-;1267:12;:10;:12::i;:::-;-1:-1:-1;;;;;1253:26:24;:10;-1:-1:-1;;;;;1253:26:24;;1245:35;;;;;;;;2715:25;2725:14;2715:9;:25::i;:::-;2762:4;-1:-1:-1;;;;;2754:26:24;2781:4;2754:32;;;;;;;;;;;;;23:1:-1;8:100;33:3;30:1;27:10;8:100;;;90:11;;;84:18;71:11;;;64:39;52:2;45:10;8:100;;;12:14;2754:32:24;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;2746:41;;;;;;;;2617:175;;:::o;397:99:25:-;471:20;;-1:-1:-1;;;;;471:20:25;397:99;:::o;1651:212:24:-;1267:12;:10;:12::i;:::-;-1:-1:-1;;;;;1253:26:24;:10;-1:-1:-1;;;;;1253:26:24;;1245:35;;;;;;;;-1:-1:-1;;;;;1737:22:24;;;;1729:31;;;;;;1771:49;1797:12;:10;:12::i;:::-;1771:49;;;-1:-1:-1;;;;;1771:49:24;;;;;;;;;;;;;;;;;;;;;1826:32;1849:8;1826:22;:32::i;956:179::-;1023:15;;-1:-1:-1;;;;;1023:33:24;;;:15;;:33;;1015:42;;;;;;1063:15;:32;;-1:-1:-1;;1063:32:24;-1:-1:-1;;;;;1063:32:24;;;;;;;1106:24;;1063:32;;1106:24;;;956:179;:::o;552:129:25:-;631:20;:45;;-1:-1:-1;;631:45:25;-1:-1:-1;;;;;631:45:25;;;;;;;;;;552:129::o",
-  "source": "pragma solidity 0.4.23;\n\nimport './Proxy.sol';\nimport './OwnedUpgradeabilityStorage.sol';\n\n/**\n * @title OwnedUpgradeabilityProxy\n * @dev This contract combines an upgradeability proxy with basic authorization control functionalities\n */\ncontract OwnedUpgradeabilityProxy is Proxy, OwnedUpgradeabilityStorage {\n  /**\n  * @dev Event to show ownership has been transferred\n  * @param previousOwner representing the address of the previous owner\n  * @param newOwner representing the address of the new owner\n  */\n  event ProxyOwnershipTransferred(address previousOwner, address newOwner);\n\n  /**\n  * @dev This event will be emitted every time the implementation gets upgraded\n  * @param implementation representing the address of the upgraded implementation\n  */\n  event Upgraded(address indexed implementation);\n\n  /**\n  * @dev Upgrades the implementation address\n  * @param implementation representing the address of the new implementation to be set\n  */\n  function _upgradeTo(address implementation) internal {\n    require(_implementation != implementation);\n    _implementation = implementation;\n    emit Upgraded(implementation);\n  }\n\n  /**\n  * @dev Throws if called by any account other than the owner.\n  */\n  modifier onlyProxyOwner() {\n    require(msg.sender == proxyOwner());\n    _;\n  }\n\n  /**\n   * @dev Tells the address of the proxy owner\n   * @return the address of the proxy owner\n   */\n  function proxyOwner() public view returns (address) {\n    return upgradeabilityOwner();\n  }\n\n  /**\n   * @dev Allows the current owner to transfer control of the contract to a newOwner.\n   * @param newOwner The address to transfer ownership to.\n   */\n  function transferProxyOwnership(address newOwner) public onlyProxyOwner {\n    require(newOwner != address(0));\n    emit ProxyOwnershipTransferred(proxyOwner(), newOwner);\n    setUpgradeabilityOwner(newOwner);\n  }\n\n  /**\n   * @dev Allows the upgradeability owner to upgrade the current implementation of the proxy.\n   * @param implementation representing the address of the new implementation to be set.\n   */\n  function upgradeTo(address implementation) public onlyProxyOwner {\n    _upgradeTo(implementation);\n  }\n\n  /**\n   * @dev Allows the upgradeability owner to upgrade the current implementation of the proxy\n   * and delegatecall the new implementation for initialization.\n   * @param implementation representing the address of the new implementation to be set.\n   * @param data represents the msg.data to bet sent in the low level call. This parameter may include the function\n   * signature of the implementation to be called with the needed payload\n   */\n  function upgradeToAndCall(address implementation, bytes data) payable public onlyProxyOwner {\n    upgradeTo(implementation);\n    require(address(this).delegatecall(data));\n  }\n}\n",
-  "sourcePath": "/home/cwgoes/working/crypto/wyvern/wyvern-ethereum/contracts/registry/proxy/OwnedUpgradeabilityProxy.sol",
+  "source": "pragma solidity 0.4.23;\n\nimport \"./Proxy.sol\";\nimport \"./OwnedUpgradeabilityStorage.sol\";\n\n/**\n * @title OwnedUpgradeabilityProxy\n * @dev This contract combines an upgradeability proxy with basic authorization control functionalities\n */\ncontract OwnedUpgradeabilityProxy is Proxy, OwnedUpgradeabilityStorage {\n  /**\n  * @dev Event to show ownership has been transferred\n  * @param previousOwner representing the address of the previous owner\n  * @param newOwner representing the address of the new owner\n  */\n  event ProxyOwnershipTransferred(address previousOwner, address newOwner);\n\n  /**\n  * @dev This event will be emitted every time the implementation gets upgraded\n  * @param implementation representing the address of the upgraded implementation\n  */\n  event Upgraded(address indexed implementation);\n\n  /**\n  * @dev Upgrades the implementation address\n  * @param implementation representing the address of the new implementation to be set\n  */\n  function _upgradeTo(address implementation) internal {\n    require(_implementation != implementation);\n    _implementation = implementation;\n    emit Upgraded(implementation);\n  }\n\n  /**\n  * @dev Throws if called by any account other than the owner.\n  */\n  modifier onlyProxyOwner() {\n    require(msg.sender == proxyOwner());\n    _;\n  }\n\n  /**\n   * @dev Tells the address of the proxy owner\n   * @return the address of the proxy owner\n   */\n  function proxyOwner() public view returns (address) {\n    return upgradeabilityOwner();\n  }\n\n  /**\n   * @dev Allows the current owner to transfer control of the contract to a newOwner.\n   * @param newOwner The address to transfer ownership to.\n   */\n  function transferProxyOwnership(address newOwner) public onlyProxyOwner {\n    require(newOwner != address(0));\n    emit ProxyOwnershipTransferred(proxyOwner(), newOwner);\n    setUpgradeabilityOwner(newOwner);\n  }\n\n  /**\n   * @dev Allows the upgradeability owner to upgrade the current implementation of the proxy.\n   * @param implementation representing the address of the new implementation to be set.\n   */\n  function upgradeTo(address implementation) public onlyProxyOwner {\n    _upgradeTo(implementation);\n  }\n\n  /**\n   * @dev Allows the upgradeability owner to upgrade the current implementation of the proxy\n   * and delegatecall the new implementation for initialization.\n   * @param implementation representing the address of the new implementation to be set.\n   * @param data represents the msg.data to bet sent in the low level call. This parameter may include the function\n   * signature of the implementation to be called with the needed payload\n   */\n  function upgradeToAndCall(address implementation, bytes data) payable public onlyProxyOwner {\n    upgradeTo(implementation);\n    require(address(this).delegatecall(data));\n  }\n}\n",
+  "sourcePath": "/mnt/d/work/wyvern-ethereum/contracts/registry/proxy/OwnedUpgradeabilityProxy.sol",
   "ast": {
-    "absolutePath": "/home/cwgoes/working/crypto/wyvern/wyvern-ethereum/contracts/registry/proxy/OwnedUpgradeabilityProxy.sol",
+    "absolutePath": "/mnt/d/work/wyvern-ethereum/contracts/registry/proxy/OwnedUpgradeabilityProxy.sol",
     "exportedSymbols": {
       "OwnedUpgradeabilityProxy": [
         5711
@@ -165,7 +165,7 @@
         "src": "0:23:24"
       },
       {
-        "absolutePath": "/home/cwgoes/working/crypto/wyvern/wyvern-ethereum/contracts/registry/proxy/Proxy.sol",
+        "absolutePath": "/mnt/d/work/wyvern-ethereum/contracts/registry/proxy/Proxy.sol",
         "file": "./Proxy.sol",
         "id": 5593,
         "nodeType": "ImportDirective",
@@ -176,7 +176,7 @@
         "unitAlias": ""
       },
       {
-        "absolutePath": "/home/cwgoes/working/crypto/wyvern/wyvern-ethereum/contracts/registry/proxy/OwnedUpgradeabilityStorage.sol",
+        "absolutePath": "/mnt/d/work/wyvern-ethereum/contracts/registry/proxy/OwnedUpgradeabilityStorage.sol",
         "file": "./OwnedUpgradeabilityStorage.sol",
         "id": 5594,
         "nodeType": "ImportDirective",
@@ -419,10 +419,10 @@
                       "name": "require",
                       "nodeType": "Identifier",
                       "overloadedDeclarations": [
-                        7004,
-                        7005
+                        6983,
+                        6984
                       ],
-                      "referencedDeclaration": 7004,
+                      "referencedDeclaration": 6983,
                       "src": "1015:7:24",
                       "typeDescriptions": {
                         "typeIdentifier": "t_function_require_pure$_t_bool_$returns$__$",
@@ -632,7 +632,7 @@
                             "name": "msg",
                             "nodeType": "Identifier",
                             "overloadedDeclarations": [],
-                            "referencedDeclaration": 7001,
+                            "referencedDeclaration": 6980,
                             "src": "1253:3:24",
                             "typeDescriptions": {
                               "typeIdentifier": "t_magic_message",
@@ -703,10 +703,10 @@
                       "name": "require",
                       "nodeType": "Identifier",
                       "overloadedDeclarations": [
-                        7004,
-                        7005
+                        6983,
+                        6984
                       ],
-                      "referencedDeclaration": 7004,
+                      "referencedDeclaration": 6983,
                       "src": "1245:7:24",
                       "typeDescriptions": {
                         "typeIdentifier": "t_function_require_pure$_t_bool_$returns$__$",
@@ -959,10 +959,10 @@
                       "name": "require",
                       "nodeType": "Identifier",
                       "overloadedDeclarations": [
-                        7004,
-                        7005
+                        6983,
+                        6984
                       ],
-                      "referencedDeclaration": 7004,
+                      "referencedDeclaration": 6983,
                       "src": "1729:7:24",
                       "typeDescriptions": {
                         "typeIdentifier": "t_function_require_pure$_t_bool_$returns$__$",
@@ -1438,7 +1438,7 @@
                                 "name": "this",
                                 "nodeType": "Identifier",
                                 "overloadedDeclarations": [],
-                                "referencedDeclaration": 7054,
+                                "referencedDeclaration": 7033,
                                 "src": "2762:4:24",
                                 "typeDescriptions": {
                                   "typeIdentifier": "t_contract$_OwnedUpgradeabilityProxy_$5711",
@@ -1520,10 +1520,10 @@
                       "name": "require",
                       "nodeType": "Identifier",
                       "overloadedDeclarations": [
-                        7004,
-                        7005
+                        6983,
+                        6984
                       ],
-                      "referencedDeclaration": 7004,
+                      "referencedDeclaration": 6983,
                       "src": "2746:7:24",
                       "typeDescriptions": {
                         "typeIdentifier": "t_function_require_pure$_t_bool_$returns$__$",
@@ -1658,7 +1658,7 @@
     "src": "0:2795:24"
   },
   "legacyAST": {
-    "absolutePath": "/home/cwgoes/working/crypto/wyvern/wyvern-ethereum/contracts/registry/proxy/OwnedUpgradeabilityProxy.sol",
+    "absolutePath": "/mnt/d/work/wyvern-ethereum/contracts/registry/proxy/OwnedUpgradeabilityProxy.sol",
     "exportedSymbols": {
       "OwnedUpgradeabilityProxy": [
         5711
@@ -1678,7 +1678,7 @@
         "src": "0:23:24"
       },
       {
-        "absolutePath": "/home/cwgoes/working/crypto/wyvern/wyvern-ethereum/contracts/registry/proxy/Proxy.sol",
+        "absolutePath": "/mnt/d/work/wyvern-ethereum/contracts/registry/proxy/Proxy.sol",
         "file": "./Proxy.sol",
         "id": 5593,
         "nodeType": "ImportDirective",
@@ -1689,7 +1689,7 @@
         "unitAlias": ""
       },
       {
-        "absolutePath": "/home/cwgoes/working/crypto/wyvern/wyvern-ethereum/contracts/registry/proxy/OwnedUpgradeabilityStorage.sol",
+        "absolutePath": "/mnt/d/work/wyvern-ethereum/contracts/registry/proxy/OwnedUpgradeabilityStorage.sol",
         "file": "./OwnedUpgradeabilityStorage.sol",
         "id": 5594,
         "nodeType": "ImportDirective",
@@ -1932,10 +1932,10 @@
                       "name": "require",
                       "nodeType": "Identifier",
                       "overloadedDeclarations": [
-                        7004,
-                        7005
+                        6983,
+                        6984
                       ],
-                      "referencedDeclaration": 7004,
+                      "referencedDeclaration": 6983,
                       "src": "1015:7:24",
                       "typeDescriptions": {
                         "typeIdentifier": "t_function_require_pure$_t_bool_$returns$__$",
@@ -2145,7 +2145,7 @@
                             "name": "msg",
                             "nodeType": "Identifier",
                             "overloadedDeclarations": [],
-                            "referencedDeclaration": 7001,
+                            "referencedDeclaration": 6980,
                             "src": "1253:3:24",
                             "typeDescriptions": {
                               "typeIdentifier": "t_magic_message",
@@ -2216,10 +2216,10 @@
                       "name": "require",
                       "nodeType": "Identifier",
                       "overloadedDeclarations": [
-                        7004,
-                        7005
+                        6983,
+                        6984
                       ],
-                      "referencedDeclaration": 7004,
+                      "referencedDeclaration": 6983,
                       "src": "1245:7:24",
                       "typeDescriptions": {
                         "typeIdentifier": "t_function_require_pure$_t_bool_$returns$__$",
@@ -2472,10 +2472,10 @@
                       "name": "require",
                       "nodeType": "Identifier",
                       "overloadedDeclarations": [
-                        7004,
-                        7005
+                        6983,
+                        6984
                       ],
-                      "referencedDeclaration": 7004,
+                      "referencedDeclaration": 6983,
                       "src": "1729:7:24",
                       "typeDescriptions": {
                         "typeIdentifier": "t_function_require_pure$_t_bool_$returns$__$",
@@ -2951,7 +2951,7 @@
                                 "name": "this",
                                 "nodeType": "Identifier",
                                 "overloadedDeclarations": [],
-                                "referencedDeclaration": 7054,
+                                "referencedDeclaration": 7033,
                                 "src": "2762:4:24",
                                 "typeDescriptions": {
                                   "typeIdentifier": "t_contract$_OwnedUpgradeabilityProxy_$5711",
@@ -3033,10 +3033,10 @@
                       "name": "require",
                       "nodeType": "Identifier",
                       "overloadedDeclarations": [
-                        7004,
-                        7005
+                        6983,
+                        6984
                       ],
-                      "referencedDeclaration": 7004,
+                      "referencedDeclaration": 6983,
                       "src": "2746:7:24",
                       "typeDescriptions": {
                         "typeIdentifier": "t_function_require_pure$_t_bool_$returns$__$",
@@ -3176,5 +3176,5 @@
   },
   "networks": {},
   "schemaVersion": "2.0.0",
-  "updatedAt": "2018-06-12T05:05:32.638Z"
+  "updatedAt": "2022-07-30T22:03:53.897Z"
 }

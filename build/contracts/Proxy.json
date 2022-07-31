@@ -40,9 +40,9 @@
   "sourceMap": "",
   "deployedSourceMap": "",
   "source": "pragma solidity 0.4.23;\n\n/**\n * @title Proxy\n * @dev Gives the possibility to delegate any call to a foreign implementation.\n */\ncontract Proxy {\n\n  /**\n  * @dev Tells the address of the implementation where every call will be delegated.\n  * @return address of the implementation to which it will be delegated\n  */\n  function implementation() public view returns (address);\n\n  /**\n  * @dev Tells the type of proxy (EIP 897)\n  * @return Type of proxy, 2 for upgradeable proxy\n  */\n  function proxyType() public pure returns (uint256 proxyTypeId);\n\n  /**\n  * @dev Fallback function allowing to perform a delegatecall to the given implementation.\n  * This function will return whatever the implementation call returns\n  */\n  function () payable public {\n    address _impl = implementation();\n    require(_impl != address(0));\n\n    assembly {\n      let ptr := mload(0x40)\n      calldatacopy(ptr, 0, calldatasize)\n      let result := delegatecall(gas, _impl, ptr, calldatasize, 0, 0)\n      let size := returndatasize\n      returndatacopy(ptr, 0, size)\n\n      switch result\n      case 0 { revert(ptr, size) }\n      default { return(ptr, size) }\n    }\n  }\n}\n",
-  "sourcePath": "/home/cwgoes/working/crypto/wyvern/wyvern-ethereum/contracts/registry/proxy/Proxy.sol",
+  "sourcePath": "/mnt/d/work/wyvern-ethereum/contracts/registry/proxy/Proxy.sol",
   "ast": {
-    "absolutePath": "/home/cwgoes/working/crypto/wyvern/wyvern-ethereum/contracts/registry/proxy/Proxy.sol",
+    "absolutePath": "/mnt/d/work/wyvern-ethereum/contracts/registry/proxy/Proxy.sol",
     "exportedSymbols": {
       "Proxy": [
         5783
@@ -362,10 +362,10 @@
                       "name": "require",
                       "nodeType": "Identifier",
                       "overloadedDeclarations": [
-                        7004,
-                        7005
+                        6983,
+                        6984
                       ],
-                      "referencedDeclaration": 7004,
+                      "referencedDeclaration": 6983,
                       "src": "793:7:26",
                       "typeDescriptions": {
                         "typeIdentifier": "t_function_require_pure$_t_bool_$returns$__$",
@@ -444,7 +444,7 @@
     "src": "0:1151:26"
   },
   "legacyAST": {
-    "absolutePath": "/home/cwgoes/working/crypto/wyvern/wyvern-ethereum/contracts/registry/proxy/Proxy.sol",
+    "absolutePath": "/mnt/d/work/wyvern-ethereum/contracts/registry/proxy/Proxy.sol",
     "exportedSymbols": {
       "Proxy": [
         5783
@@ -764,10 +764,10 @@
                       "name": "require",
                       "nodeType": "Identifier",
                       "overloadedDeclarations": [
-                        7004,
-                        7005
+                        6983,
+                        6984
                       ],
-                      "referencedDeclaration": 7004,
+                      "referencedDeclaration": 6983,
                       "src": "793:7:26",
                       "typeDescriptions": {
                         "typeIdentifier": "t_function_require_pure$_t_bool_$returns$__$",
@@ -851,5 +851,5 @@
   },
   "networks": {},
   "schemaVersion": "2.0.0",
-  "updatedAt": "2018-06-12T05:05:32.639Z"
+  "updatedAt": "2022-07-30T22:03:53.898Z"
 }

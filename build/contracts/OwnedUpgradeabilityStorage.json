@@ -44,14 +44,14 @@
       "type": "function"
     }
   ],
-  "bytecode": "0x608060405234801561001057600080fd5b5061013e806100206000396000f3006080604052600436106100565763ffffffff7c01000000000000000000000000000000000000000000000000000000006000350416634555d5c9811461005b5780635c60da1b146100825780636fde8202146100c0575b600080fd5b34801561006757600080fd5b506100706100d5565b60408051918252519081900360200190f35b34801561008e57600080fd5b506100976100da565b6040805173ffffffffffffffffffffffffffffffffffffffff9092168252519081900360200190f35b3480156100cc57600080fd5b506100976100f6565b600290565b60005473ffffffffffffffffffffffffffffffffffffffff1690565b60015473ffffffffffffffffffffffffffffffffffffffff16905600a165627a7a7230582097a751b0e63550e227e0bdc63359920d97a2305f65b207fa4763fc7764823b8b0029",
-  "deployedBytecode": "0x6080604052600436106100565763ffffffff7c01000000000000000000000000000000000000000000000000000000006000350416634555d5c9811461005b5780635c60da1b146100825780636fde8202146100c0575b600080fd5b34801561006757600080fd5b506100706100d5565b60408051918252519081900360200190f35b34801561008e57600080fd5b506100976100da565b6040805173ffffffffffffffffffffffffffffffffffffffff9092168252519081900360200190f35b3480156100cc57600080fd5b506100976100f6565b600290565b60005473ffffffffffffffffffffffffffffffffffffffff1690565b60015473ffffffffffffffffffffffffffffffffffffffff16905600a165627a7a7230582097a751b0e63550e227e0bdc63359920d97a2305f65b207fa4763fc7764823b8b0029",
+  "bytecode": "0x608060405234801561001057600080fd5b5061013e806100206000396000f3006080604052600436106100565763ffffffff7c01000000000000000000000000000000000000000000000000000000006000350416634555d5c9811461005b5780635c60da1b146100825780636fde8202146100c0575b600080fd5b34801561006757600080fd5b506100706100d5565b60408051918252519081900360200190f35b34801561008e57600080fd5b506100976100da565b6040805173ffffffffffffffffffffffffffffffffffffffff9092168252519081900360200190f35b3480156100cc57600080fd5b506100976100f6565b600290565b60005473ffffffffffffffffffffffffffffffffffffffff1690565b60015473ffffffffffffffffffffffffffffffffffffffff16905600a165627a7a72305820624ca882c1eaaa86198188b12d7bfa9442ebc532922ad213ba998acc8b75dadd0029",
+  "deployedBytecode": "0x6080604052600436106100565763ffffffff7c01000000000000000000000000000000000000000000000000000000006000350416634555d5c9811461005b5780635c60da1b146100825780636fde8202146100c0575b600080fd5b34801561006757600080fd5b506100706100d5565b60408051918252519081900360200190f35b34801561008e57600080fd5b506100976100da565b6040805173ffffffffffffffffffffffffffffffffffffffff9092168252519081900360200190f35b3480156100cc57600080fd5b506100976100f6565b600290565b60005473ffffffffffffffffffffffffffffffffffffffff1690565b60015473ffffffffffffffffffffffffffffffffffffffff16905600a165627a7a72305820624ca882c1eaaa86198188b12d7bfa9442ebc532922ad213ba998acc8b75dadd0029",
   "sourceMap": "132:946:25:-;;;;8:9:-1;5:2;;;30:1;27;20:12;5:2;132:946:25;;;;;;;",
   "deployedSourceMap": "132:946:25:-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;994:82;;8:9:-1;5:2;;;30:1;27;20:12;5:2;994:82:25;;;;;;;;;;;;;;;;;;;;803:89;;8:9:-1;5:2;;;30:1;27;20:12;5:2;803:89:25;;;;;;;;;;;;;;;;;;;;;;;397:99;;8:9:-1;5:2;;;30:1;27;20:12;5:2;397:99:25;;;;994:82;1070:1;994:82;:::o;803:89::-;850:7;872:15;;;803:89;:::o;397:99::-;471:20;;;;397:99;:::o",
   "source": "pragma solidity 0.4.23;\n\n/**\n * @title OwnedUpgradeabilityStorage\n * @dev This contract keeps track of the upgradeability owner\n */\ncontract OwnedUpgradeabilityStorage {\n\n  // Current implementation\n  address internal _implementation;\n\n  // Owner of the contract\n  address private _upgradeabilityOwner;\n\n  /**\n   * @dev Tells the address of the owner\n   * @return the address of the owner\n   */\n  function upgradeabilityOwner() public view returns (address) {\n    return _upgradeabilityOwner;\n  }\n\n  /**\n   * @dev Sets the address of the owner\n   */\n  function setUpgradeabilityOwner(address newUpgradeabilityOwner) internal {\n    _upgradeabilityOwner = newUpgradeabilityOwner;\n  }\n\n  /**\n  * @dev Tells the address of the current implementation\n  * @return address of the current implementation\n  */\n  function implementation() public view returns (address) {\n    return _implementation;\n  }\n\n  /**\n  * @dev Tells the proxy type (EIP 897)\n  * @return Proxy type, 2 for forwarding proxy\n  */\n  function proxyType() public pure returns (uint256 proxyTypeId) {\n    return 2;\n  }\n}\n",
-  "sourcePath": "/home/cwgoes/working/crypto/wyvern/wyvern-ethereum/contracts/registry/proxy/OwnedUpgradeabilityStorage.sol",
+  "sourcePath": "/mnt/d/work/wyvern-ethereum/contracts/registry/proxy/OwnedUpgradeabilityStorage.sol",
   "ast": {
-    "absolutePath": "/home/cwgoes/working/crypto/wyvern/wyvern-ethereum/contracts/registry/proxy/OwnedUpgradeabilityStorage.sol",
+    "absolutePath": "/mnt/d/work/wyvern-ethereum/contracts/registry/proxy/OwnedUpgradeabilityStorage.sol",
     "exportedSymbols": {
       "OwnedUpgradeabilityStorage": [
         5752
@@ -499,7 +499,7 @@
     "src": "0:1079:25"
   },
   "legacyAST": {
-    "absolutePath": "/home/cwgoes/working/crypto/wyvern/wyvern-ethereum/contracts/registry/proxy/OwnedUpgradeabilityStorage.sol",
+    "absolutePath": "/mnt/d/work/wyvern-ethereum/contracts/registry/proxy/OwnedUpgradeabilityStorage.sol",
     "exportedSymbols": {
       "OwnedUpgradeabilityStorage": [
         5752
@@ -952,5 +952,5 @@
   },
   "networks": {},
   "schemaVersion": "2.0.0",
-  "updatedAt": "2018-06-12T05:05:32.639Z"
+  "updatedAt": "2022-07-30T22:03:53.898Z"
 }
