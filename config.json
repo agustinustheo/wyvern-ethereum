@@ -48,6 +48,20 @@
       "WyvernDAOProxy": "0xa839d4b5a36265795eba6894651a8af3d0ae2e68",
       "WyvernAtomicizer": "0xc99f70bfd82fb7c8f8191fdfbfb735606b15e5c5",
       "WyvernTokenTransferProxy": "0xe5c783ee536cf5e63e792988335c4255169be4e1"
+    },
+    "substrate": {
+      "Migrations": "0x8fe839058f2550997195e99df5f41908c8aa27c0",
+      "TestToken": "0x1e587d145967ee55c244e0b588f666c189a59847",
+      "TestDAO": "0x714031bfb8899b330cb2d8a296bc20572e99c32a",
+      "TestStatic": "0x76969fcb8bbda5b711ea13e6ac56e3a95b80f18c",
+      "MerkleProof": "0x34a9ec02af377619dad3be6ebd3079086ba63b3d",
+      "WyvernToken": "0xefa7846f5f68d1fd5ed17105addf44563c172e05",
+      "WyvernDAO": "0x653f630a2a2daef54bac275c1b494ff8c21aa8e9",
+      "WyvernDAOProxy": "0x8133812583c0f7189cd232836a66302825f4d15b",
+      "WyvernAtomicizer": "0x2607f4f58455024f351d00a10bdf4d14bd190cbc",
+      "WyvernProxyRegistry": "0xad5d2ce12d1553fff117890bd45b601bf7308758",
+      "WyvernTokenTransferProxy": "0x4334957cad284718097fe12dd9e0b226fb8a0708",
+      "WyvernExchange": "0xb56dd33ad21e941c6e6871afe49f504c08b2e1ab"
     }
   }
 }
